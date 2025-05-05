@@ -4,8 +4,8 @@ command:
   - python
   - "/sources/submissionagent.py"
   - "--cfgFile"
-  - "/sources/cfg_files/sfiii3n/sr6_128x4_das_nc.yaml"
+  - "/sources/roms/cfg_files/sfiii3n/sr6_128x4_das_nc.yaml"
   - "--trainedModel"
-  - "/sources/results/sfiii3n/sr6_128x4_das_nc/model/model.zip"
+  - "/sources/results/sfiii3n/sr6_128x4_das_nc/model/1022.zip"
 sources:
-  .: git+https://gdbagda:{{.Secrets.token}}@github.com/gdbagda/diambra-demo.git#ref=Master
+  .: git+https://gdbagda:{{.Secrets.token}}@github.com/gdbagda/diambra-demo.git
